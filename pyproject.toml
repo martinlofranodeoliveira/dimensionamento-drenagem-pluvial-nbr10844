@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimensionamento-drenagem-pluvial-nbr10844"
+version = "1.0.0"
+description = "Dimensionamento de sistemas prediais e urbanos de drenagem de águas pluviais segundo a ABNT NBR 10844:1989. 100% Python padrão, Zero Float."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Martin Lofrano de Oliveira", email = "martin@lofrano.com.br" },
+    { name = "LOFRANO TECNOLOGIA", email = "contato@lofrano.com.br" }
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Civil Engineering",
+    "Natural Language :: Portuguese (Brazilian)"
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844"
+Repository = "https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844.git"
+Issues = "https://github.com/martinlofranodeoliveira/dimensionamento-drenagem-pluvial-nbr10844/issues"
+
+[project.scripts]
+drenagem-pluvial = "drenagem_pluvial_nbr10844.cli:main"
+dimensionamento-drenagem = "drenagem_pluvial_nbr10844.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["py.typed"]

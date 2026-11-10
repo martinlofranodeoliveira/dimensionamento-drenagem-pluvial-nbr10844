@@ -1,0 +1,75 @@
+================================================================================
+          LOFRANO TECNOLOGIA - ENGENHARIA DE DRENAGEM PLUVIAL
+            MEMORIAL DE CÁLCULO NORMATIVO - ABNT NBR 10844:1989
+================================================================================
+Projeto: Edifício Residencial Jardins - Cobertura Bloco A
+Norma Regulamentadora: ABNT NBR 10844:1989
+Status Geral de Aprovação: APROVADO
+--------------------------------------------------------------------------------
+1. DADOS PLUVIOMÉTRICOS DE PROJETO
+  - Localidade: São Paulo / SP
+  - Período de Retorno (T): 5 anos
+  - Duração da Chuva (t): 5 minutos
+  - Intensidade Pluviométrica de Projeto (I): 159 mm/h
+
+2. BACIA DE CONTRIBUIÇÃO E VAZÃO DE PROJETO (MÉTODO RACIONAL)
+  - Área em Projeção Horizontal (Ah): 180 m²
+  - Acréscimo por Paredes Verticais Expostas (Ap/2): 15 m²
+  - Área de Contribuição Efetiva (Ac = Ah + Ap/2): 195 m²
+  - Coeficiente de Escoamento Superficial (C): 1
+  - Vazão de Projeto Calculada: Q = (C * I * Ac) / 60
+    * Q = 516,75 L/min (8,612 L/s)
+
+3. DIMENSIONAMENTO DA CALHA (MANNING-STRICKLER)
+  - Tipo de Seção: RETANGULAR
+  - Dimensões: Largura = 180 mm | Altura = 150 mm
+  - Lâmina d'Água de Escoamento: 100 mm
+  - Borda Livre Resultante: 50 mm (33,3% da altura)
+  - Declividade Longitudinal Adotada (i): 1% (Mínimo: 0,50%)
+  - Área Molhada (S): 0,0180 m²
+  - Raio Hidráulico (Rh): 0,0474 m
+  - Velocidade de Escoamento: 1,01 m/s
+  - Capacidade Admissível de Escoamento: 1087,6 L/min
+  - Taxa de Ocupação da Calha: 47,5%
+  - Status Normativo: CONFORME
+    * Calha dimensionada com plena conformidade à ABNT NBR 10844:1989.
+
+4. CONDUTOR VERTICAL (TUBO DE QUEDA - TABELA 4 NBR 10844)
+  - Diâmetro Nominal (DN): 100 mm
+  - Tipo de Bocal de Saída: FUNIL
+  - Capacidade Admissível Normativa: 1060 L/min
+  - Vazão Afluente: 516,8 L/min
+  - Taxa de Ocupação: 48,8%
+  - Status Normativo: CONFORME
+    * Condutor vertical DN 100 (bocal funil) atende à NBR 10844 com taxa de ocupação de 48.8%.
+
+5. CONDUTOR HORIZONTAL (COLETOR PREDIAL - TABELA 5 NBR 10844)
+  - Diâmetro Nominal (DN): 125 mm
+  - Declividade de Instalação (i): 1% (Mínimo: 0,50%)
+  - Lâmina d'Água Máxima Permissível: h/D <= 0,67 (Dois Terços)
+  - Capacidade Admissível (Tabela 5): 555 L/min
+  - Capacidade Teórica Contínua (Manning): 426,8 L/min
+  - Vazão Afluente: 516,8 L/min
+  - Taxa de Ocupação: 93,1%
+  - Status Normativo: CONFORME
+    * Condutor horizontal DN 125 com declividade de 1.00% atende à NBR 10844 com taxa de ocupação de 93.1%.
+
+6. CAIXA DE AREIA E SEDIMENTAÇÃO (NBR 10844 ITEM 5.4)
+  - Dimensões em Planta: 400 mm x 400 mm (Mínimo: 400x400 mm)
+  - Altura Livre de Sedimentação: 200 mm (Mínimo: 200 mm)
+  - Volume Efetivo de Retenção de Sólidos: 32 Litros
+  - Status Normativo: CONFORME
+    * Caixa de areia de 400x400 mm com câmara de sedimentação de 32.0 L conforme NBR 10844.
+
+7. SÍNTESE DE CONFORMIDADE E RECOMENDAÇÕES
+  - Componente [superficie]: APROVADO
+  - Componente [calha]: APROVADO
+  - Componente [condutor_vertical]: APROVADO
+  - Componente [condutor_horizontal]: APROVADO
+  - Componente [caixa_areia]: APROVADO
+  RECOMENDAÇÕES EXECUTIVAS:
+    [*] Ralo tipo hemisférico (pinha) adotado: excelente proteção contra entupimento por folhas e detritos carreados.
+    [*] Sistema predial de águas pluviais integralmente aprovado segundo os critérios da ABNT NBR 10844:1989.
+================================================================================
+LOFRANO TECNOLOGIA - Soluções Determinísticas e Engenharia Confiável.
+================================================================================

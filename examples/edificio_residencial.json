@@ -1,0 +1,105 @@
+{
+  "identificacao": "Edifício Residencial Jardins - Cobertura Bloco A",
+  "chuva": {
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "periodo_retorno_anos": 5,
+    "duracao_minutos": 5,
+    "intensidade_mm_h": {
+      "num": 159,
+      "den": 1
+    }
+  },
+  "superficie": {
+    "identificacao": "Cobertura Principal e Platibanda",
+    "area_horizontal_m2": {
+      "num": 180,
+      "den": 1
+    },
+    "tipo_superficie": "cobertura_metalica",
+    "coeficiente_escoamento": {
+      "num": 1,
+      "den": 1
+    },
+    "paredes": [
+      {
+        "identificacao": "Platibanda Sul",
+        "altura_m": {
+          "num": 5,
+          "den": 2
+        },
+        "largura_m": {
+          "num": 12,
+          "den": 1
+        }
+      }
+    ]
+  },
+  "calha": {
+    "identificacao": "Calha Platibanda Sul",
+    "tipo_secao": "retangular",
+    "material": "aco_galvanizado",
+    "largura_fundo_mm": {
+      "num": 180,
+      "den": 1
+    },
+    "largura_topo_mm": {
+      "num": 180,
+      "den": 1
+    },
+    "altura_total_mm": {
+      "num": 150,
+      "den": 1
+    },
+    "lamina_dagua_mm": {
+      "num": 100,
+      "den": 1
+    },
+    "declividade_m_m": {
+      "num": 1,
+      "den": 100
+    },
+    "comprimento_m": {
+      "num": 12,
+      "den": 1
+    }
+  },
+  "condutor_vertical": {
+    "identificacao": "Tubo de Queda TQ-01",
+    "dn_mm": 100,
+    "tipo_bocal": "funil",
+    "altura_m": {
+      "num": 12,
+      "den": 1
+    }
+  },
+  "condutor_horizontal": {
+    "identificacao": "Coletor Térreo CH-01",
+    "dn_mm": 125,
+    "material": "pvc",
+    "declividade_m_m": {
+      "num": 1,
+      "den": 100
+    },
+    "comprimento_m": {
+      "num": 20,
+      "den": 1
+    },
+    "relacao_lamina_max": {
+      "num": 2,
+      "den": 3
+    }
+  },
+  "ralo": {
+    "identificacao": "Ralo Hemisférico de Cobertura",
+    "tipo_ralo": "hemisferico",
+    "dn_mm": 100
+  },
+  "caixa_areia": {
+    "identificacao": "Caixa de Areia e Limpeza Térreo",
+    "largura_mm": 400,
+    "comprimento_mm": 400,
+    "altura_util_mm": 400,
+    "altura_sedimentacao_mm": 200
+  }
+}

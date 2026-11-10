@@ -1,0 +1,186 @@
+{
+  "alertas": [],
+  "atende_geral": true,
+  "chuva": {
+    "cidade": "São Paulo",
+    "duracao_minutos": 5,
+    "intensidade_mm_h": {
+      "den": 1,
+      "num": 159
+    },
+    "periodo_retorno_anos": 5,
+    "uf": "SP"
+  },
+  "conformidades": {
+    "caixa_areia": true,
+    "calha": true,
+    "condutor_horizontal": true,
+    "condutor_vertical": true,
+    "superficie": true
+  },
+  "identificacao": "Edifício Residencial Jardins - Cobertura Bloco A",
+  "norma": "ABNT NBR 10844:1989",
+  "recomendacoes": [
+    "Ralo tipo hemisférico (pinha) adotado: excelente proteção contra entupimento por folhas e detritos carreados.",
+    "Sistema predial de águas pluviais integralmente aprovado segundo os critérios da ABNT NBR 10844:1989."
+  ],
+  "resultado_caixa_areia": {
+    "altura_sedimentacao_mm": 200,
+    "altura_util_mm": 400,
+    "atende_norma": true,
+    "comprimento_mm": 400,
+    "largura_mm": 400,
+    "observacoes": [
+      "Caixa de areia de 400x400 mm com câmara de sedimentação de 32.0 L conforme NBR 10844."
+    ],
+    "volume_sedimentacao_L": {
+      "den": 1,
+      "num": 32
+    }
+  },
+  "resultado_calha": {
+    "altura_total_mm": {
+      "den": 1,
+      "num": 150
+    },
+    "area_molhada_m2": {
+      "den": 500,
+      "num": 9
+    },
+    "atende_borda_livre": true,
+    "atende_capacidade": true,
+    "atende_declividade": true,
+    "atende_norma": true,
+    "borda_livre_mm": {
+      "den": 1,
+      "num": 50
+    },
+    "borda_livre_perc": {
+      "den": 3,
+      "num": 100
+    },
+    "declividade_m_m": {
+      "den": 100,
+      "num": 1
+    },
+    "lamina_dagua_mm": {
+      "den": 1,
+      "num": 100
+    },
+    "largura_mm": {
+      "den": 1,
+      "num": 180
+    },
+    "observacoes": [
+      "Calha dimensionada com plena conformidade à ABNT NBR 10844:1989."
+    ],
+    "perimetro_molhado_m": {
+      "den": 50,
+      "num": 19
+    },
+    "raio_hidraulico_m": {
+      "den": 190,
+      "num": 9
+    },
+    "taxa_ocupacao_vazao": {
+      "den": 3271892036437611,
+      "num": 1554556250000000
+    },
+    "tipo_secao": "retangular",
+    "vazao_admissivel_L_min": {
+      "den": 9025000000000,
+      "num": 9815676109312833
+    },
+    "vazao_projeto_L_min": {
+      "den": 4,
+      "num": 2067
+    },
+    "velocidade_escoamento_m_s": {
+      "den": 361000000000000,
+      "num": 363543559604179
+    }
+  },
+  "resultado_condutor_horizontal": {
+    "atende_capacidade": true,
+    "atende_declividade": true,
+    "atende_norma": true,
+    "capacidade_manning_L_min": {
+      "den": 2054242373046875000000000,
+      "num": 876817111479350758483233213
+    },
+    "capacidade_tabela_L_min": {
+      "den": 1,
+      "num": 555
+    },
+    "declividade_m_m": {
+      "den": 100,
+      "num": 1
+    },
+    "dn_mm": 125,
+    "observacoes": [
+      "Condutor horizontal DN 125 com declividade de 1.00% atende à NBR 10844 com taxa de ocupação de 93.1%."
+    ],
+    "relacao_lamina_max": {
+      "den": 3,
+      "num": 2
+    },
+    "taxa_ocupacao_vazao": {
+      "den": 740,
+      "num": 689
+    },
+    "vazao_projeto_L_min": {
+      "den": 4,
+      "num": 2067
+    }
+  },
+  "resultado_condutor_vertical": {
+    "atende_norma": true,
+    "capacidade_admissivel_L_min": {
+      "den": 1,
+      "num": 1060
+    },
+    "dn_mm": 100,
+    "observacoes": [
+      "Condutor vertical DN 100 (bocal funil) atende à NBR 10844 com taxa de ocupação de 48.8%."
+    ],
+    "taxa_ocupacao_vazao": {
+      "den": 80,
+      "num": 39
+    },
+    "tipo_bocal": "funil",
+    "vazao_projeto_L_min": {
+      "den": 4,
+      "num": 2067
+    }
+  },
+  "resultado_superficie": {
+    "area_efetiva_m2": {
+      "den": 1,
+      "num": 195
+    },
+    "area_horizontal_m2": {
+      "den": 1,
+      "num": 180
+    },
+    "area_paredes_m2": {
+      "den": 1,
+      "num": 15
+    },
+    "coeficiente_escoamento": {
+      "den": 1,
+      "num": 1
+    },
+    "intensidade_mm_h": {
+      "den": 1,
+      "num": 159
+    },
+    "vazao_projeto_L_min": {
+      "den": 4,
+      "num": 2067
+    },
+    "vazao_projeto_L_s": {
+      "den": 80,
+      "num": 689
+    }
+  }
+}

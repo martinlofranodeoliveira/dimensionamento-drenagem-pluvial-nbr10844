@@ -1,0 +1,6 @@
+Componente;Identificação;Parâmetro de Projeto;Valor de Projeto;Capacidade Admissível;Vazão de Projeto (L/min);Taxa de Ocupação (%);Conformidade NBR 10844
+Superfície;Bacia de Cobertura;Área Efetiva (Ah=180 m², Ap=15 m²);195 m²;'-;516,8;100,00;CONFORME
+Calha;Seção Retangular;180x150 mm, i=1%;Lâmina: 100 mm | Borda: 50 mm;1087,6 L/min;516,8;47,51;CONFORME
+Condutor Vertical;DN 100;Tubo de Queda (Bocal Funil);DN 100 mm;1060 L/min;516,8;48,75;CONFORME
+Condutor Horizontal;DN 125;Coletor Predial i=1%;DN 125 mm (h/D <= 0,67);555 L/min;516,8;93,11;CONFORME
+Caixa de Areia;Dispositivo de Sedimentação;Dimensões 400x400 mm | Fundo: 200 mm;Volume: 32 L;>= 200 mm;'-;'-;CONFORME

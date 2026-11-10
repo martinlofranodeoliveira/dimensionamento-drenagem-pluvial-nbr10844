@@ -1,0 +1,93 @@
+{
+  "identificacao": "Galpão Logístico Industrial - Setor Leste",
+  "chuva": {
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "periodo_retorno_anos": 5,
+    "duracao_minutos": 5,
+    "intensidade_mm_h": {
+      "num": 144,
+      "den": 1
+    }
+  },
+  "superficie": {
+    "identificacao": "Telhado Metálico - Água 1",
+    "area_horizontal_m2": {
+      "num": 500,
+      "den": 1
+    },
+    "tipo_superficie": "cobertura_metalica",
+    "coeficiente_escoamento": {
+      "num": 1,
+      "den": 1
+    },
+    "paredes": []
+  },
+  "calha": {
+    "identificacao": "Calha de Beiral Industrial",
+    "tipo_secao": "retangular",
+    "material": "aco_galvanizado",
+    "largura_fundo_mm": {
+      "num": 250,
+      "den": 1
+    },
+    "largura_topo_mm": {
+      "num": 250,
+      "den": 1
+    },
+    "altura_total_mm": {
+      "num": 200,
+      "den": 1
+    },
+    "lamina_dagua_mm": {
+      "num": 140,
+      "den": 1
+    },
+    "declividade_m_m": {
+      "num": 15,
+      "den": 1000
+    },
+    "comprimento_m": {
+      "num": 25,
+      "den": 1
+    }
+  },
+  "condutor_vertical": {
+    "identificacao": "Prumada Principal TQ-01",
+    "dn_mm": 150,
+    "tipo_bocal": "funil",
+    "altura_m": {
+      "num": 9,
+      "den": 1
+    }
+  },
+  "condutor_horizontal": {
+    "identificacao": "Coletor Geral Enterrado",
+    "dn_mm": 150,
+    "material": "pvc",
+    "declividade_m_m": {
+      "num": 2,
+      "den": 100
+    },
+    "comprimento_m": {
+      "num": 35,
+      "den": 1
+    },
+    "relacao_lamina_max": {
+      "num": 2,
+      "den": 3
+    }
+  },
+  "ralo": {
+    "identificacao": "Ralo Cônico com Grelha Hemisférica",
+    "tipo_ralo": "hemisferico",
+    "dn_mm": 150
+  },
+  "caixa_areia": {
+    "identificacao": "Caixa de Retenção de Areia Industrial",
+    "largura_mm": 500,
+    "comprimento_mm": 500,
+    "altura_util_mm": 500,
+    "altura_sedimentacao_mm": 250
+  }
+}
