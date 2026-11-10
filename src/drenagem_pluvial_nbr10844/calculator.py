@@ -265,15 +265,15 @@ def calcular_calha(
     obs: List[str] = []
     if not atende_declividade:
         obs.append(
-            f"Declividade ({calha.declividade_m_m * 100:.2f}%) inferior ao mínimo normativo de 0,50% (NBR 10844 item 5.1.4)."
+            f"Declividade ({float(calha.declividade_m_m * 100):.2f}%) inferior ao mínimo normativo de 0,50% (NBR 10844 item 5.1.4)."
         )
     if not atende_capacidade:
         obs.append(
-            f"Vazão de projeto ({vazao_projeto_L_min:.1f} L/min) excede a capacidade da calha ({vazao_adm_L_min:.1f} L/min)."
+            f"Vazão de projeto ({float(vazao_projeto_L_min):.1f} L/min) excede a capacidade da calha ({float(vazao_adm_L_min):.1f} L/min)."
         )
     if not atende_borda_livre:
         obs.append(
-            f"Borda livre ({borda_livre_efetiva_mm:.1f} mm) inferior ao mínimo recomendado de 20 mm / 20% da altura."
+            f"Borda livre ({float(borda_livre_efetiva_mm):.1f} mm) inferior ao mínimo recomendado de 20 mm / 20% da altura."
         )
     if atende_norma:
         obs.append("Calha dimensionada com plena conformidade à ABNT NBR 10844:1989.")
@@ -327,11 +327,11 @@ def verificar_condutor_vertical(
     obs: List[str] = []
     if not atende_norma:
         obs.append(
-            f"Vazão de projeto ({vazao_projeto_L_min:.1f} L/min) excede a capacidade do tubo de queda DN {dn} com bocal {bocal} ({capacidade_admissivel:.1f} L/min)."
+            f"Vazão de projeto ({float(vazao_projeto_L_min):.1f} L/min) excede a capacidade do tubo de queda DN {dn} com bocal {bocal} ({float(capacidade_admissivel):.1f} L/min)."
         )
     else:
         obs.append(
-            f"Condutor vertical DN {dn} (bocal {bocal}) atende à NBR 10844 com taxa de ocupação de {taxa_ocupacao * 100:.1f}%."
+            f"Condutor vertical DN {dn} (bocal {bocal}) atende à NBR 10844 com taxa de ocupação de {float(taxa_ocupacao * 100):.1f}%."
         )
     
     return ResultadoCondutorVertical(
@@ -447,15 +447,15 @@ def calcular_condutor_horizontal(
     obs: List[str] = []
     if not atende_declividade:
         obs.append(
-            f"Declividade ({declividade * 100:.2f}%) inferior ao mínimo normativo de 0,50% (NBR 10844 item 5.3.2)."
+            f"Declividade ({float(declividade * 100):.2f}%) inferior ao mínimo normativo de 0,50% (NBR 10844 item 5.3.2)."
         )
     if not atende_capacidade:
         obs.append(
-            f"Vazão de projeto ({vazao_projeto_L_min:.1f} L/min) excede a capacidade do condutor horizontal DN {dn} ({capacidade_governante:.1f} L/min)."
+            f"Vazão de projeto ({float(vazao_projeto_L_min):.1f} L/min) excede a capacidade do condutor horizontal DN {dn} ({float(capacidade_governante):.1f} L/min)."
         )
     if atende_norma:
         obs.append(
-            f"Condutor horizontal DN {dn} com declividade de {declividade * 100:.2f}% atende à NBR 10844 com taxa de ocupação de {taxa_ocupacao * 100:.1f}%."
+            f"Condutor horizontal DN {dn} com declividade de {float(declividade * 100):.2f}% atende à NBR 10844 com taxa de ocupação de {float(taxa_ocupacao * 100):.1f}%."
         )
     
     return ResultadoCondutorHorizontal(
@@ -500,7 +500,7 @@ def verificar_caixa_areia(caixa: CaixaAreia) -> ResultadoCaixaAreia:
         )
     if atende_norma:
         obs.append(
-            f"Caixa de areia de {caixa.largura_mm}x{caixa.comprimento_mm} mm com câmara de sedimentação de {volume_sedimentacao_L:.1f} L conforme NBR 10844."
+            f"Caixa de areia de {caixa.largura_mm}x{caixa.comprimento_mm} mm com câmara de sedimentação de {float(volume_sedimentacao_L):.1f} L conforme NBR 10844."
         )
     
     return ResultadoCaixaAreia(
@@ -567,7 +567,7 @@ def dimensionar_sistema(projeto: ProjetoDrenagem) -> ResultadoProjetoDrenagem:
             alertas.extend(resultado_calha.observacoes)
         if resultado_calha.taxa_ocupacao_vazao > Fraction(85, 100):
             recomendacoes.append(
-                f"Calha operando com ocupação de {resultado_calha.taxa_ocupacao_vazao * 100:.1f}%. Recomenda-se prever extravasor (ladrão)."
+                f"Calha operando com ocupação de {float(resultado_calha.taxa_ocupacao_vazao * 100):.1f}%. Recomenda-se prever extravasor (ladrão)."
             )
     
     if resultado_cv is not None:
